@@ -1,0 +1,56 @@
+/* 10. Blog */
+
+.blog-list {
+    display: grid;
+    gap: 20px;
+}
+
+.blog-card {
+    background-color: var(--secondary-bg);
+    padding: 25px;
+    border-radius: 5px;
+    border-left: 3px solid var(--primary-color);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+}
+
+.blog-card h3 {
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+.blog-card h3 a {
+    color: var(--text-color);
+}
+
+.blog-card h3 a:hover {
+    color: var(--primary-color);
+}
+
+.blog-category {
+    color: var(--primary-color);
+    font-size: 0.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.blog-date {
+    color: #777777;
+    font-size: 0.8em;
+    margin-bottom: 12px;
+}
+
+.blog-card p {
+    color: #aaaaaa;
+}
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 0.9em;
+}
